@@ -37,24 +37,47 @@
               <li class="nav-item">
               </li>
             </ul>
-            <form class="d-flex" role="search" action="./registrasi.html">
-                <button class="btn btn-outline-success" type="submit">REGISTRASI</button>
+            <form class="d-flex" role="search" action="./login.html">
+                <button class="btn btn-outline-success" type="submit">LOGIN</button>
               </form>
           </div>
         </div>
       </nav>
-      <h1 class="text-center">Login</h1>
-    <form action="./loginsukses.html" class="container">
+    <h1 class="text-center">Registrasi</h1>
+    <form action="./login.html" class="container">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email</label>
-          <input type="email" class="form-control is-valid" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           <div id="emailHelp" class="form-text">Kami akan mengirimkan berita di email anda.</div>
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Kata Sandi</label>
-          <input type="password" class="form-control is-invalid" id="exampleInputPassword1">
+          <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="mb-3">
+            <label for="exampleInputPassword2" class="form-label">Konfirmasi Kata Sandi</label>
+            <input type="password" class="form-control" id="exampleInputPassword2">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInpurNumberPhone" class="form-label">Nomor HP</label>
+            <input type="number" class="form-control" id="exampleInpurNumberPhone">
+          </div>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Hobi</option>
+            <option value="1">Makan</option>
+            <option value="2">Tidur</option>
+            <option value="3">Balap</option>
+          </select> <br>
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Saya yakin</label>
+        </div>
+        <button type="submit" class="btn btn-primary container">Submit</button>
       </form>
+    
 </body>
 </html>
